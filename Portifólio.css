@@ -1,3 +1,11 @@
+img{
+    max-width:300px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
 .linha-a{
     display: flex;
     flex-flow: row wrap; 
@@ -26,14 +34,14 @@ a:visited{
 .contatoconteudo,.hardskillconteudo,.softskillconteudo,.idiomasconteudo{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
+    font-size: 18px;
     text-align: left;
     color: white;
     margin-left: 1.5cm;
     margin-right: 1.5cm;
 }
 #data {
-    top: 54%;
+    top: 50%;
     width: 30%;
     text-align: right;
     position: relative;
@@ -85,7 +93,7 @@ a:visited{
 }
 .resumopconteudo,.pcompetenciasconteudo{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: medium;
+    font-size: 18px;
     text-align: left;
     color: #006400;
     margin-left: 2cm;
@@ -108,7 +116,7 @@ a:visited{
 
 .tacademicoconteudo{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: small;
+    font-size: 18px;
     text-align: left;
     color: #006400;
     margin-left: 2cm;
